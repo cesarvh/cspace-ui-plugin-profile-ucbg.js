@@ -12,4 +12,9 @@ export default {
 
   'footer.feedback': 'Contact UC Berkeley CollectionSpace support',
   'footer.feedbackUrl': 'mailto:cspace-support@lists.berkeley.edu',
+
+  'record.location.name': 'Garden Location',
+  'record.location.collectionName': 'Garden Locations',
+  'vocab.location.local.name': 'Garden Location',
+  'vocab.location.local.collectionName': 'Garden Locations',
 };
