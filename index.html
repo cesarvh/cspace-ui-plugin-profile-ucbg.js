@@ -16,7 +16,7 @@
     A compatible version of cspace-ui is specified as a development dependency of this package
     (in package.json), so its distribution bundle will be in node_modules.
   -->
-  <script src="/node_modules/cspace-ui/dist/cspaceUI.js"></script>
+  <script src="/node_modules/@ucb-cspace/cspace-ui/dist/cspaceUI.js"></script>
 
   <!--
     Load the UC Botanical Garden profile plugin. This places the
@@ -32,7 +32,8 @@
   <div id="cspace"></div>
   <script>
     cspaceUI({
-      serverUrl: 'http://localhost:8180',
+      // serverUrl: 'http://localhost:8180',
+      serverUrl: 'https://botgarden-dev.cspace.berkeley.edu/',
       plugins: [
         cspaceUIPluginProfileUCBG(),
       ],
